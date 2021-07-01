@@ -48,7 +48,7 @@ function StopWatch(props) {
 
     return (
         <div className='stopWatch'>
-            <h3>Stop Watch</h3>
+            <h3>stopwatch</h3>
             <div className='stopWatch-show'>
                 <div><span className='show_digit'>{('0' + Math.floor((time / 60000) % 60)).slice(-2)}</span>
                     <span className='show_colon'>:</span>
