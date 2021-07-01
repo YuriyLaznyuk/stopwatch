@@ -5,7 +5,7 @@
   border: 1px solid;
 }
 
-.stopWatch span{
+.show_digit{
   margin: 10px;
   padding: 3px;
   border: 1px solid;
@@ -26,4 +26,10 @@
 }
 .stopWatch-control{
   margin: 10px auto;
+}
+.show_colon{
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: white;
 }
